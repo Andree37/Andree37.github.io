@@ -20,7 +20,7 @@ I think about this website as an opportunity to share:
 - `studies` on certain fields that I'm currently interested.
 
 
-Not wanting to be too garrulous, I'll leave you with one of my favorite c++ code snippets:
+Not wanting to be too garrulous, I'll leave you with one of my favorite c++ code snippets: 
 
 ```c++
 int main () { 
