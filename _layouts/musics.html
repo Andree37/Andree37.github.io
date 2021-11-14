@@ -1,21 +1,45 @@
 ---
 layout: page
-# All the Tags of posts.
+# All the music that I enjoy
 ---
 
-<div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+{% include lang.html %}
 
-  {% assign tags = "" | split: "" %}
-  {% for t in site.tags %}
-    {% assign tags = tags | push: t[0] %}
-  {% endfor %}
+<p class="mx-auto text-muted" >Some songs I enjoy so much I had to share:</p>
 
-  {% assign sorted_tags = tags | sort_natural %}
-asdasd
-  {% for t in sorted_tags %}
-    <div>
-      <a class="tag" href="{{ site.baseurl }}/tags/{{ t | slugify | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
-    </div>
-  {% endfor %}
+<div id="musics" class="pl-xl-2">
 
+{% for music in site.musics reversed %}
+  {% capture this_year %}{{ music.date | date: "%Y" }}{% endcapture %}
+  {% capture pre_year %}{{ music.previous.date | date: "%Y" }}{% endcapture %}
+          
+  {% capture this_day %}{{ music.date | date: "%d" }}{% endcapture %}
+  {% capture _mth_df %}{{ site.data.locales[lang].date_format.post.archive_month }}{% endcapture %}
+  {% capture this_month %}{{ music.date | date: _mth_df }}{% endcapture %}
+  {% capture pre_month %}{{ music.previous.date | date: _mth_df }}{% endcapture %}
+
+  {% if forloop.first %}
+    {% assign last_day = "" %}
+    {% assign last_month = "" %}
+  <span class="lead">{{this_year}} {{this_month}}</span>
+  <ul class="list-unstyled">
+  {% endif %}
+    <li>
+      <div>
+        <span class="date day">{{ this_day }}</span>
+        <span class="date month small text-muted">{% include no-zero-date.html date_str=this_month %}</span>
+
+        <a>{% include spotifyplaylist.html spotifyurl=music.spotifyurl height=280 width=250 %}</a>
+      </div>
+    </li>
+  {% if forloop.last %}
+</ul>
+{% elsif this_year != pre_year or this_month != pre_month %}
+</ul>
+<span class="lead">{{pre_year}} {{pre_month}}</span>
+<ul class="list-unstyled">
+  {% assign last_day = "" %}
+  {% assign last_month = "" %}
+{% endif %}
+{% endfor %}
 </div>

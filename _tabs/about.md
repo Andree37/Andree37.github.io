@@ -14,7 +14,7 @@ Personally enjoy making small projects in my free time that allow me to learn an
 
 
 Bass player and wish one day to fully learn this song:
-{% include spotifyplaylist.html id=page.spotifyplaylist %}
+{% include spotifyplaylist.html spotifyurl=page.spotifyplaylist width=380 height=80 %}
 
 *Be sure to check my socials and my Resume if this interests you.*
 
