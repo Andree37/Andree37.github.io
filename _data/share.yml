@@ -11,7 +11,7 @@ platforms:
   -
     type: Linkedin
     icon: "fab fa-linkedin"
-    link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
+    link: "https://www.linkedin.com/sharing/share-offsite/?url=https://andree37.github.io/URL"
   #
   # -
   #   type: Weibo
