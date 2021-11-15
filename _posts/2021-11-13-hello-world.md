@@ -35,4 +35,4 @@ int main () {
 }
 ``` 
 
-Try it out on [this online compiler](https://www.onlinegdb.com/online_c++_compiler){:target="_blank"} to check out what it does.
+Try it out on [this online compiler](https://onlinegdb.com/k1-HH4tZB){:target="_blank"} to check out what it does.
