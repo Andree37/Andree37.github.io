@@ -2,8 +2,8 @@
 title: Hello World
 author: André Ribeiro
 date: 2021-11-13 22:00:00 +0000
-categories: [Blogging, Writting]
-tags: [writting]
+categories: [Blogging, Writing]
+tags: [writing]
 pin: true
 ---
 
