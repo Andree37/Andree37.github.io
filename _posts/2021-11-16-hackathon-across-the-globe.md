@@ -7,7 +7,7 @@ tags: [programing, hackathon, machine learning]
 image:
   src: /posts/australian-hackathon/australian-hackathon-certificate.jpg
   width: 400
-  height: 400
+  height: 400 
 ---
 
 For my first ever *Hackathon* I had two real challenges. The lack of **sleep**, and creating an AI-Enabled Assessment Marking with the use of ML-based text mining algorithm.
