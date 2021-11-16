@@ -1,7 +1,7 @@
 ---
 title: Hackathon across the Globe
 author: André Ribeiro
-date: 2021-11-16 18:00:00 +0000
+date: 2021-11-16 19:00:00 +0000
 categories: [Programing, Hackathon]
 tags: [programing, hackathon, machine learning]
 image:
