@@ -5,7 +5,7 @@ date: 2021-11-16 18:00:00 +0000
 categories: [Programing, Hackathon]
 tags: [programing, hackathon, machine learning]
 image:
-  src: /posts/2021-11-16-images/australian-hackathon-certificate.jpg
+  src: /posts/australian-hackathon/australian-hackathon-certificate.jpg
   width: 400
   height: 400
 ---
@@ -34,17 +34,17 @@ The Problem was the following:
 2. Create a marking application front-end layer to input the data and be presented with some results
 
 This was the Architecture that we decided to use:
-![Architecture](/posts/2021-11-16-images/australian-hackathon-architecture.png){: width="972" height="589" style="max-width: 70%" .normal}
+![Architecture](/posts/australian-hackathon/australian-hackathon-architecture.png){: width="972" height="589" style="max-width: 70%" .normal}
 
-Where the main focus really relies on the *scoring_engine.py* and the rest of the page will mention it in more detail, but first...
+The main focus really relies on the *scoring_engine.py* where the rest of the page will mention it in more detail, but first...
 
 <br>
 
 ## Data Preparation
-  ![Data Preparation](/posts/2021-11-16-images/australian-hackathon-data-preparation.png){: width="1272" height="589" style="max-width: 500px" .right}
+  ![Data Preparation](/posts/australian-hackathon/australian-hackathon-data-preparation.png){: width="1272" height="589" style="max-width: 500px" .right}
   As part of the challenge, the given dataset wasn't **totally** prepared to be used in a machine learning algorithm. Some tokens weren't correct and so we used *Regex operations* to parse them into their more consistent state.
 
-  Most of this work was done in **Excel** and for some small tweaks on the answer fields we used a simple script in **Python**
+  Most of this work was done in **Excel** and for some small tweaks on the answer fields (our independent variable) we used a simple script in **Python**
   
 <br>
 
@@ -118,7 +118,7 @@ We also created a function to **validate** the model which gave us some impressi
 > It is important to note that the challenge was divided into four individual problems, each with more complex phrases than the last,
 > these were the results
 
-![Validation](/posts/2021-11-16-images/australian-hackathon-validation.png){: width="972" height="589" style="max-width: 50%" .left}
+![Validation](/posts/australian-hackathon/australian-hackathon-validation.png){: width="972" height="589" style="max-width: 50%" .left}
 
 | Problem #                     | Size of Dataset            | Accuracy|
 |:-----------------------------|:-----------------|--------:|
@@ -135,14 +135,16 @@ The image presented is auto-generated from our *front-end* layer that we created
 
 We created a *back-end* server with [Flask][flask]{:target="_blank"} in order to server the machine learning model. We selected this *framework* as it's simple for our use-case and is also written in **Python**.
 
-Also made a simple website where you could upload the answers of the students (in this case, the dataset) using *React* and *Nivo*.
+The team was also created a simple website where we could upload the answers of the students (in this case, the dataset) using *React* and *Nivo*.
 
 ## Conclusion
 
-Given the end of the *Hackathon*, our team pitched the project and two hours later `whilst I was sleeping` we were announced as the winning team for Problem number one!
+Given the end of the *Hackathon*, our team pitched the project and two hours later `whilst I was sleeping` we were announced as the **winning team for Problem number one**!
 
-And so it was, we won a *Hackathon* competition, all the way across the globe :D **Thank you to my team!**
-![Team](/posts/2021-11-16-images/australian-hackathon-team.png){: width="972" height="589" style="max-width: 100%" .normal}
+And so it was, we won a *Hackathon* competition, all the way across the globe :D 
+<br>
+**Thank you to my team!**
+![Team](/posts/australian-hackathon/australian-hackathon-team.png){: width="972" height="589" style="max-width: 100%" .normal}
 
 
 [naive bayes algorithm]: https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
