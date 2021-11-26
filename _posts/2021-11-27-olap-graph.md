@@ -16,7 +16,7 @@ We call it: <ins>*The "Graph" Kimball Presentation*</ins>[^ralph].
 
 Why Graphs?
 : We found a *NoSQL Graph-based OLAP Analysis* paper[^olappaper] that really caught our eye and we wanted to see how this version of OLAP analysis compares to the usual tabular OLAP approach.
-
+  
 We then purpose how to correctly use a Graph for **Cube Architecture** and **OLAP Operations**.
 
 
@@ -93,7 +93,7 @@ I will be showing how the same operations can be done using an *OLAP Graph* inst
 
 
 ### Slice
-
+_Get Sales made in "Lisboa"._
 ```cypher
 MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"}) 
 RETURN f, c
@@ -101,6 +101,7 @@ RETURN f, c
 
 ![slice](/posts/olap/slice.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
 
+_Get Sales made in "Lisboa" and Product line = "Junior"._
 ```cypher
 MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"}) 
 MATCH (f)<-[]-(l:Line {name: "Junior"})<-[]-(p)<-[]-(sub)<-[]-(cat)
@@ -111,6 +112,7 @@ RETURN f, c, l, p, sub, cat
 
 ![slice](/posts/olap/dice.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
 
+_Get Sales made in "Lisboa" and Product line = "Junior" WHERE quantity is larger than 910._
 ```cypher
 MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"}) 
 MATCH (f)<-[]-(l:Line {name: "Junior"})<-[]-(p)<-[]-(sub)<-[]-(cat)
@@ -120,6 +122,7 @@ RETURN f, c, l, p, sub, cat
 
 ### Roll-up and Drill-Down
 
+_Get Sales made in "Spain" with sub-category = "Cold" in the 2nd trimester._
 ```cypher
 MATCH (f:Fact)<-[]-(s)<-[]-(co:Country {name: "Spain"})
 MATCH (f)<-[]-(l)<-[]-(prod)<-[]-(sub:SubCategory {name: "Cold"})
@@ -129,6 +132,7 @@ RETURN f, s, co, l, prod, d, m, sub, tri
 
 ![slice](/posts/olap/rollupdrilldown.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
 
+_Get Sales made in "Spain" with product = "Coffee" in the 5th month_
 ```cypher
 MATCH (f:Fact)<-[]-(s)<-[]-(co:Country {name: "Spain"})
 MATCH (f)<-[]-(l)<-[]-(prod:Product {name: "Coffee"})
@@ -140,7 +144,7 @@ RETURN f, s, co, l, prod, d, m
 
 ![slice](https://media.giphy.com/media/uMxmo1hLsrCiRjUSVC/giphy.gif){: width="872" height="589" style="max-width: 60%; background-color: white" .right}
 
-Given all that has been said, this is our final demonstration. *Sorry for bad resolution that Giphy allows me to have*.
+Given all that has been said, this is our final demonstration of what a Graph approach can give you. *Sorry for bad resolution that Giphy allows me to have*.
 
 With a Graph OLAP "cube" and Neo4J we can do our exploratory analysis in a way that is unimaginable for the SQL approach. 
 
