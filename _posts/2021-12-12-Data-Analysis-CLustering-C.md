@@ -14,7 +14,7 @@ image:
 What interests me nowadays was greatly influenced by the many interesting projects I developed during my licentiate degree.
 One of those projects was to Analyse and Segment Data using KMeans in C.
 
-This project was completed with the help of my colleague and friend [Daniel Afonso][daniel github]{:target="_blank"}.
+This project was started with Daniel Alves and later on completed with the help of my colleague and friend [Daniel Afonso][daniel github]{:target="_blank"}.
 
 ***
 
