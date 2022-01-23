@@ -7,16 +7,16 @@ tags: [olap, graph, study]
 image:
   src: /posts/olap/graph.png
   width: 300
-  height: 400 
+  height: 400
 ---
 
-I want to present a quick study I've done with my colleague [João Raimundo][joao linkedin]{:target="_blank"} about an experiment around **OLAP**[^olap] operations using a **Graph**. 
+I want to present a quick study I've done with my colleague [João Raimundo][joao linkedin]{:target="_blank"} about an experiment around **OLAP**[^olap] operations using a **Graph**.
 
 We call it: <ins>*The "Graph" Kimball Presentation*</ins>[^ralph].
 
 Why Graphs?
 : We found a *NoSQL Graph-based OLAP Analysis* paper[^olappaper] that really caught our eye and we wanted to see how this version of OLAP analysis compares to the usual tabular OLAP approach.
-  
+
 We then purpose how to correctly use a Graph for **Cube Architecture** and **OLAP Operations**.
 
 
@@ -62,7 +62,7 @@ The *Measures* are indicated in the attributes of the **Fact Nodes**.
 
 ## Degree and Dimensions
 
-One thing that we can immediately understand from using a graph approach for the OLAP Analysis is that we can identify, without effort, the nodes with the most importance. 
+One thing that we can immediately understand from using a graph approach for the OLAP Analysis is that we can identify, without effort, the nodes with the most importance.
 
 The nodes with more connections are the most "popular node". As we can see from this example, we can identify which months (in grey) are the most popular months for sales
 
@@ -71,7 +71,7 @@ The nodes with more connections are the most "popular node". As we can see from 
 ## Slow-changing Dimensions
 
 
-In our more tabular SQL-driven approach, slow changing dimensions require a special type of treatment and it can easily be the reason for an over-growth of our dimension tables.
+In our more tabular SQL-driven approach, slow changing dimensions require a special type of treatment, and it can easily be the reason for an over-growth of our dimension tables.
 
 ![slowly changing dimension arch](/posts/olap/slowly-changing-arch.png){: width="872" height="589" style="max-width: 70%; background-color: white" .normal}
 
@@ -95,7 +95,7 @@ I will be showing how the same operations can be done using an *OLAP Graph* inst
 ### Slice
 _Get Sales made in "Lisboa"._
 ```cypher
-MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"}) 
+MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"})
 RETURN f, c
 ```
 
@@ -103,7 +103,7 @@ RETURN f, c
 
 _Get Sales made in "Lisboa" and Product line = "Junior"._
 ```cypher
-MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"}) 
+MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"})
 MATCH (f)<-[]-(l:Line {name: "Junior"})<-[]-(p)<-[]-(sub)<-[]-(cat)
 RETURN f, c, l, p, sub, cat
 ```
@@ -114,7 +114,7 @@ RETURN f, c, l, p, sub, cat
 
 _Get Sales made in "Lisboa" and Product line = "Junior" WHERE quantity is larger than 910._
 ```cypher
-MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"}) 
+MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"})
 MATCH (f)<-[]-(l:Line {name: "Junior"})<-[]-(p)<-[]-(sub)<-[]-(cat)
 WHERE f.quantity >= 910
 RETURN f, c, l, p, sub, cat
@@ -146,7 +146,7 @@ RETURN f, s, co, l, prod, d, m
 
 Given all that has been said, this is our final demonstration of what a Graph approach can give you. *Sorry for bad resolution that Giphy allows me to have*.
 
-With a Graph OLAP "cube" and Neo4J we can do our exploratory analysis in a way that is unimaginable for the SQL approach. 
+With a Graph OLAP "cube" and Neo4J we can do our exploratory analysis in a way that is unimaginable for the SQL approach.
 
 Is it something that can be used to actually study the data? We say **YES!** but I'll leave that answer up to you and your projects where you can hopefully get some inspiration from here :)
 

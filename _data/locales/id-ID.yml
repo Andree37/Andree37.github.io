@@ -15,7 +15,6 @@ tabs:
   tags: Tagar
   archives: Arsip
   about: Tentang
-  music: Music
 
 # the text displayed in the search bar & search results
 search:
@@ -60,7 +59,8 @@ not_found:
 # ----- Posts related labels -----
 
 post:
-  published: "pada"
+  written_by: Oleh
+  posted: Diterbitkan
   updated: Diperbarui
   timeago:
     day: hari yang lalu

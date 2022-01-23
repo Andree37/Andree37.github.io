@@ -15,7 +15,6 @@ tabs:
   tags: Tags
   archives: Archives
   about: About
-  music: Music
 
 # the text displayed in the search bar & search results
 search:
@@ -60,7 +59,8 @@ not_found:
 # ----- Posts related labels -----
 
 post:
-  published: 'on'
+  written_by: By
+  posted: Posted
   updated: Updated
   timeago:
     day: days ago

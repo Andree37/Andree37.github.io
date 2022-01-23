@@ -7,12 +7,12 @@ layout: page
 
 <p class="mx-auto text-muted" >Some songs I enjoy so much I had to share:</p>
 
-<div id="musics" class="pl-xl-2">
+<div id="musics" class="pl-xl-3">
 
 {% for music in site.musics reversed %}
   {% capture this_year %}{{ music.date | date: "%Y" }}{% endcapture %}
   {% capture pre_year %}{{ music.previous.date | date: "%Y" }}{% endcapture %}
-          
+
   {% capture this_day %}{{ music.date | date: "%d" }}{% endcapture %}
   {% capture _mth_df %}{{ site.data.locales[lang].date_format.post.archive_month }}{% endcapture %}
   {% capture this_month %}{{ music.date | date: _mth_df }}{% endcapture %}
@@ -28,7 +28,6 @@ layout: page
       <div>
         <span class="date day">{{ this_day }}</span>
         <span class="date month small text-muted">{% include no-zero-date.html date_str=this_month %}</span>
-
         <a>{% include spotifyplaylist.html spotifyurl=music.spotifyurl height=280 width=250 %}</a>
       </div>
     </li>
