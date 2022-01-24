@@ -29,7 +29,7 @@ I used [Keras][keras]{:target="_blank"} to help with development, but the same c
 
 ## Recurrent Neural Network Model
 
-![rnn unfolded](/posts/rnn-shakespeare/rnn-unfolded.png){: width="322" height="589" style="max-width: 90%" .right}
+![rnn unfolded](/posts/rnn-shakespeare/rnn-unfolded.png){: width="322" height="589" style="max-width: 60%" .right}
 
 Although creating an RNN sounds complex, the implementation is pretty easy using [Keras][keras]{:target="_blank"}. The model RNN[^rnn] can be easily create with the following structure:
 1. `LSTM Layer`
