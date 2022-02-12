@@ -7,9 +7,8 @@ spotifyplaylist: track/1oOD1pV43cV9sHg97aBdLs?si=3adb1ab330624ad9
 
 ## whoami
 
-My name is **André Ribeiro**, I am a first year Master student in [Computer Science and Engineering][masters]{:target="_blank"} at [Instituto Superior Técnico][tecnico]{:target="_blank"}. I have professional experience working with web and mobile development and I'm currently Specializing in Distributed Systems and Data Science in my masters. 
+My name is **André Ribeiro**, I am a first year Master student in [Computer Science and Engineering][masters]{:target="_blank"} at [Instituto Superior Técnico][tecnico]{:target="_blank"}. I have professional experience working with web and mobile development and I'm currently Specializing in Distributed Systems and Data Science in my masters.
 
-I have also done some work with NLP, Emotion Detection, Scene Recognition and Object Detection modeling as part of my Data Science background.
 
 ***
 I enjoy making small projects in my free time that allow me to learn, and also participate in *Hackathons* where I can put my skills to the test even if it's all the way [across the globe][australianhackathon]{:target="_blank"}.
@@ -25,4 +24,4 @@ Check out my [Resume]({{ site.url }}/assets/cv.pdf){:target="_blank"} *updated n
 
 [tecnico]: https://tecnico.ulisboa.pt/en/
 [masters]: https://fenix.tecnico.ulisboa.pt/cursos/meic-a
-[australianhackathon]: https://www.linkedin.com/feed/update/urn:li:activity:6820994594520600576/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_details_all%3BN1YtXahvSiiVZwbny3tI1A%3D%3D
+[australianhackathon]: {% post_url 2021-11-16-hackathon-across-the-globe %}
