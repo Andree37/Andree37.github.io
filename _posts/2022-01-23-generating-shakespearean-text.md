@@ -8,6 +8,7 @@ image:
   src: /posts/rnn-shakespeare/shakespeare.jpg
   width: 600
   height: 400
+pin: true
 ---
 
 ### Generated Text
