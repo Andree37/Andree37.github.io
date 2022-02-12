@@ -20,7 +20,7 @@ timezone: Europe/Lisbon
 
 title: Andre's Pages                       # the main title
 
-tagline: Projects, Ideas and Studies   # it will display as the sub-title
+tagline: Projects, Ideas, and Studies   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Master Degree in Computer Science and Engineering @ IST
@@ -46,7 +46,7 @@ social:
     - https://github.com/Andree37       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/andre-ribeiro1337
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
