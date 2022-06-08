@@ -1,7 +1,7 @@
 ---
 title: Rick Rolling Tiny URL
 author: André Ribeiro
-date: 2023-06-07 07:20:00 +0000
+date: 2022-06-07 07:20:00 +0000
 categories: [Programing, Project]
 tags: [golang, frontend]
 image:
@@ -10,6 +10,9 @@ image:
   height: 400
 pin: true
 ---
+
+> I will keep this one short. But hopefully sweet :)
+{: .prompt-tip }
 
 # rickrolling
 > "Rickrolling is when you troll someone on the internet by linking to the music video for Rick Astley’s 1987 hit song “Never Gonna Give You Up.” It is, by far, the most popular example of bait-and-switch linking."
@@ -90,10 +93,7 @@ Here is a full view of the website in a gif format:
 
 So far you cannot see the website as it's still not fully deployed, but you can check [this repository][repo]{:target="_blank"} that allows you to run it locally with docker with a simple command.
 
-
-> I will keep this one short. But hopefully sweet :)
-{: .prompt-tip }
-
+I will update this post whenever the website is live!
 
 [rick dictionary]: https://www.dictionary.com/e/slang/rickrolling/
 [tinyurl]: https://tinyurl.com/app
