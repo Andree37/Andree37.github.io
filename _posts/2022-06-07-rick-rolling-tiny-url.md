@@ -1,7 +1,7 @@
 ---
 title: Rick Rolling Tiny URL
 author: André Ribeiro
-date: 2023-06-07 17:20:00 +0000
+date: 2023-06-07 07:20:00 +0000
 categories: [Programing, Project]
 tags: [golang, frontend]
 image:
@@ -32,9 +32,6 @@ What if you could mask the URL you are sending and, why not, give it a percentag
 
 # Rlld
 
-
-![rlld main page](/posts/rick-roll-tiny-url/main_page.png){: width="322" height="589" style="max-width: 60%" .center}
-
 Rlld (short for Rolled) is a website that allows you to shorten your URL and give it a percentage to instead of directing you to the correct website, it redirects you to a Rick Roll video.
 
 ![rlld what is](/posts/rick-roll-tiny-url/who_created_rlld.png){: width="322" height="589" style="max-width: 60%" .right}
@@ -43,6 +40,7 @@ Is it usefull?
 > No
 
 Is it fun?
+
 > Probably annoying
 
 But it allowed me to learn more things about base62 conversion. As I believed it was a better solution to simply hash the URL and have a very long resulting URL. In this case, we have super short URL which maps to the database index of the original URL.
@@ -78,16 +76,27 @@ func base62ToBase10(shortID string) int {
   return id
 }
 ```
+{: .nolineno}
 
 # Website
 
+The frontend was developed using React and [Chakra-UI][chakra]{:target="_blank"} for all the components that you see around :D
+
 Here is a full view of the website in a gif format:
 
-INSERT HERE A GIF OF THE UTILIZATION OF THE WHOLE WEBSITE
+|                  Creating a new rlld                  |                  Accessing the link                   |
+|:-----------------------------------------------------:|:-----------------------------------------------------:|
+| ![overview](/posts/rick-roll-tiny-url/rlld_video.gif) | ![overview](/posts/rick-roll-tiny-url/rick_video.gif) |
 
 So far you cannot see the website as it's still not fully deployed, but you can check [this repository][repo]{:target="_blank"} that allows you to run it locally with docker with a simple command.
+
+
+> I will keep this one short. But hopefully sweet :)
+{: .prompt-tip }
+
 
 [rick dictionary]: https://www.dictionary.com/e/slang/rickrolling/
 [tinyurl]: https://tinyurl.com/app
 [repo]: https://github.com/Andree37/rlld-backend
+[chakra]: https://chakra-ui.com/
 
