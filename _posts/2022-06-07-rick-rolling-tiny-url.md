@@ -25,7 +25,7 @@ But what if there was a way you could mask that?
 
 # Tiny URL
 
-[TinyURL][tinyurl]{:target="_blank"} is a website that allows you to easily shorten an URL and in certain ways, mask it. Whenever you click on a TinyURL link, you have no idea where you are going end up. You can
+[TinyURL][tinyurl]{:target="_blank"} is a website that allows you to easily shorten an URL and in certain ways, mask it. Whenever you click on a TinyURL link, you have no idea where you are going end up.
 
 **This could be taken a step further.**
 
