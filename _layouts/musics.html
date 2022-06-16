@@ -5,16 +5,24 @@ layout: page
 
 {% include lang.html %}
 
+{% if site.prefer_datetime_locale == 'en' or lang == 'en' %}
+{% assign df_strftime_m = '%b' %}
+{% assign df_dayjs_m = 'MMM' %}
+{% else %}
+{% assign df_strftime_m = '/ %m' %}
+{% assign df_dayjs_m = '/ MM' %}
+{% endif %}
+
 <p class="mx-auto text-muted" >Some songs I enjoy so much I had to share:</p>
 
-<div id="musics" class="pl-xl-3">
+<div id="musics" class="pl-l-3">
 
 {% for music in site.musics reversed %}
   {% capture this_year %}{{ music.date | date: "%Y" }}{% endcapture %}
   {% capture pre_year %}{{ music.previous.date | date: "%Y" }}{% endcapture %}
 
   {% capture this_day %}{{ music.date | date: "%d" }}{% endcapture %}
-  {% capture _mth_df %}{{ site.data.locales[lang].date_format.post.archive_month }}{% endcapture %}
+  {% capture _mth_df %}{{ df_strftime_m }}{% endcapture %}
   {% capture this_month %}{{ music.date | date: _mth_df }}{% endcapture %}
   {% capture pre_month %}{{ music.previous.date | date: _mth_df }}{% endcapture %}
 
