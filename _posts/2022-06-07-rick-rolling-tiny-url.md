@@ -8,7 +8,7 @@ image:
   src: /posts/rick-roll-tiny-url/cover.png
   width: 600
   height: 400
-pin: true
+pin: false
 ---
 
 > I will keep this one short. But hopefully sweet :)
