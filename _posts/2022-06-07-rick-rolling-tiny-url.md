@@ -44,7 +44,7 @@ Is it usefull?
 
 Is it fun?
 
-> Probably annoying
+> Probably annoying and not going to be used in the real world
 
 But it allowed me to learn more things about base62 conversion. As I believed it was a better solution to simply hash the URL and have a very long resulting URL. In this case, we have super short URL which maps to the database index of the original URL.
 
@@ -93,7 +93,7 @@ Here is a full view of the website in a gif format:
 
 So far you cannot see the website as it's still not fully deployed, but you can check [this repository][repo]{:target="_blank"} that allows you to run it locally with docker with a simple command.
 
-I will update this post whenever the website is live!
+I will update this post whenever the website is live! Which can mean it might take a long time
 
 [rick dictionary]: https://www.dictionary.com/e/slang/rickrolling/
 [tinyurl]: https://tinyurl.com/app
