@@ -1,13 +1,14 @@
-<div class="embed-spotify">
-  <iframe 
-    src="https://open.spotify.com/embed/{{ include.spotifyurl }}" 
-    width="{{ include.width }}" 
-    height="{{ include.height }}" 
-    frameborder="0" 
-    allowtransparency="true"
-    allow="encrypted-media"
-    webkitallowfullscreen
-    mozallowfullscreen
-    allowfullscreen>
-</iframe>
+<div>
+  <iframe
+      src="https://open.spotify.com/embed/{{ include.spotifyurl }}"
+      style="background: #FFFFFF; border-radius: 20px;"
+      width="{{ include.width }}"
+      height="{{ include.height }}"
+      frameborder="0"
+      allowtransparency="true"
+      allow="encrypted-media"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen>
+  </iframe>
 </div>
