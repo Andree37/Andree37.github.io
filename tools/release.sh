@@ -19,12 +19,12 @@ GEM_SPEC="jekyll-theme-chirpy.gemspec"
 check() {
   if [[ -n $(git status . -s) ]]; then
     echo "Error: Commit unstaged files first, and then run this tool againt."
-    exit -1
+    exit 255
   fi
 
   if [[ ! -f $GEM_SPEC ]]; then
     echo -e "Error: Missing file \"$GEM_SPEC\"!\n"
-    exit -1
+    exit 255
   fi
 }
 
