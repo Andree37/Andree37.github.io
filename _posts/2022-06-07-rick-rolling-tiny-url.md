@@ -1,6 +1,5 @@
 ---
 title: Rick Rolling Tiny URL
-author: André Ribeiro
 date: 2022-06-07 07:20:00 +0000
 categories: [Programing, Project]
 tags: [golang, frontend]

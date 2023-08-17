@@ -1,6 +1,5 @@
 ---
 title: Domino Exit Game Puzzle
-author: André Ribeiro
 date: 2023-08-14 19:25:00 +0100
 categories: [Programing, Study]
 tags: [python, puzzle, game, domino]

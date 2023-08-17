@@ -1,6 +1,5 @@
 ---
 title: Generating Shakespearean Text using an RNN
-author: André Ribeiro
 date: 2022-01-23 17:20:00 +0000
 categories: [Programing, Study]
 tags: [deep learning, machine learning]

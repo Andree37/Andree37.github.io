@@ -1,6 +1,5 @@
 ---
 title: pwd Variables with Rust
-author: André Ribeiro
 date: 2022-10-23 15:25:00 +0000
 categories: [Programing, Project]
 tags: [rust, cli]

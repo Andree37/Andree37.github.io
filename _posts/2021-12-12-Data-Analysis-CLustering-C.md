@@ -1,6 +1,5 @@
 ---
 title: KMeans Data Analysis in C
-author: André Ribeiro
 date: 2021-12-12 15:30:00 +0000
 categories: [Programing, Project]
 tags: [c, data, kmeans, machine learning]
