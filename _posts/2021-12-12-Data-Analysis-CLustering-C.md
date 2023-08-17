@@ -22,7 +22,7 @@ The Portuguese Basketball Federation keeps a record of all the detailed informat
 The data is collected in every game and afterwards processed statistically, allowing us to obtain performance indicators of each game and player.
 
 ## The Program
-![commands](/posts/kmeans-data/commands.jpg){: width="772" height="589" style="max-width: 100%" .normal}
+![commands](/assets/img/posts/kmeans-data/commands.jpg){: width="772" height="589" style="max-width: 100%" .normal}
 
 The program has a menu to show the possible **commands** that allows us to insert and visualize data (e.g. *csv file*) as well as aggregate operations that further deepen the understanding of the data.
 
@@ -113,7 +113,7 @@ PtList normalizeStatistics(PtList players) {
 }
 ```
 
-![commands](/posts/kmeans-data/cluster.png){: width="472" height="789" style="max-width: 45%" .left}
+![commands](/assets/img/posts/kmeans-data/cluster.png){: width="472" height="789" style="max-width: 45%" .left}
 
 KMeans is a method of analysis used in **data mining**. Its objective is to partition **N** observations in **K** sets (clusters) so that each observation belongs in the nearest **mean** observation (a cluster). Each observation contains **p** characteristics.
 
