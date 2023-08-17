@@ -32,14 +32,14 @@ The Problem was the following:
 2. Create a marking application front-end layer to input the data and be presented with some results
 
 This was the Architecture that we decided to use:
-![Architecture](/posts/australian-hackathon/australian-hackathon-architecture.png){: width="972" height="589" style="max-width: 70%" .normal}
+![Architecture](/assets/img/posts/australian-hackathon/australian-hackathon-architecture.png){: width="972" height="589" style="max-width: 70%" .normal}
 
 The main focus really relies on the *scoring_engine.py* where the rest of the page will mention it in more detail, but first...
 
 <br>
 
 ## Data Preparation
-  ![Data Preparation](/posts/australian-hackathon/australian-hackathon-data-preparation.png){: width="1272" height="589" style="max-width: 500px" .right}
+  ![Data Preparation](/assets/img/posts/australian-hackathon/australian-hackathon-data-preparation.png){: width="1272" height="589" style="max-width: 500px" .right}
   As part of the challenge, the given dataset wasn't **totally** prepared to be used in a machine learning algorithm. Some tokens weren't correct and so we used *Regex operations* to parse them into their more consistent state.
 
   Most of this work was done in **Excel** and for some small tweaks on the answer fields (our independent variable) we used a simple script in **Python**
@@ -116,7 +116,7 @@ We also created a function to **validate** the model which gave us some impressi
 > It is important to note that the challenge was divided into four individual problems, each with more complex phrases than the last,
 > these were the results
 
-![Validation](/posts/australian-hackathon/australian-hackathon-validation.png){: width="972" height="589" style="max-width: 50%" .left}
+![Validation](/assets/img/posts/australian-hackathon/australian-hackathon-validation.png){: width="972" height="589" style="max-width: 50%" .left}
 
 | Problem # | Size of Dataset | Accuracy |
 |:----------|:----------------|---------:|
@@ -142,7 +142,7 @@ Given the end of the *Hackathon*, our team pitched the project and two hours lat
 And so it was, we won a *Hackathon* competition, all the way across the globe :D 
 <br>
 **Thank you to my team!**
-![Team](/posts/australian-hackathon/australian-hackathon-team.png){: width="972" height="589" style="max-width: 100%" .normal}
+![Team](/assets/img/posts/australian-hackathon/australian-hackathon-team.png){: width="972" height="589" style="max-width: 100%" .normal}
 
 
 [naive bayes algorithm]: https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
