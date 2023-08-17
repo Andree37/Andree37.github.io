@@ -20,7 +20,7 @@ We then purpose how to correctly use a Graph for **Cube Architecture** and **OLA
 
 I leave this table as an initial reference of how powerful graph-based databases can be, in particular *Neo4J* which is the same one that is used on this study. Do note that the example presented is a motivation for graph-based databases so the example is a finger-picked one.
 
-![efficiency of finding extended friends](/posts/olap/neotable.jpg){: width="572" height="589" style="max-width: 70%" .normal}
+![efficiency of finding extended friends](/assets/img/posts/olap/neotable.jpg){: width="572" height="589" style="max-width: 70%" .normal}
 
 
 ## Graph Architecture
@@ -33,11 +33,11 @@ It is important to say as well that we can define levels of our Dimensions with 
 
 We can identify three Dimensions: **Location, Product, and Time** as well as the Fact nodes with grey color.
 
-![graph architecture](/posts/olap/graph-architecture.png){: width="872" height="589" style="max-width: 100%" .normal}
+![graph architecture](/assets/img/posts/olap/graph-architecture.png){: width="872" height="589" style="max-width: 100%" .normal}
 
 ## Practical Example
 
-![hypervending](/posts/olap/hypervending.png){: width="872" height="589" style="max-width: 60% ; background-color: white" .left}
+![hypervending](/assets/img/posts/olap/hypervending.png){: width="872" height="589" style="max-width: 60% ; background-color: white" .left}
 
 To easily show you how powerful this Graph-based OLAP can be, we created a *Hypervending Data Warehouse* to use on the demonstrations that will follow.
 
@@ -47,7 +47,7 @@ To make it even more interesting, we can define the levels of each dimension ver
 
 ## Facts and Measures
 
-![fact](/posts/olap/fact.png){: width="872" height="589" style="max-width: 40% ; background-color: white" .right}
+![fact](/assets/img/posts/olap/fact.png){: width="872" height="589" style="max-width: 40% ; background-color: white" .right}
 
 A **Fact Node** is identified by the archs directed at it.
 There is a direct relation between the number of **Dimensions** and the centrality of the Node.
@@ -64,14 +64,14 @@ One thing that we can immediately understand from using a graph approach for the
 
 The nodes with more connections are the most "popular node". As we can see from this example, we can identify which months (in grey) are the most popular months for sales
 
-![popular months](/posts/olap/popular-months.png){: width="872" height="589" style="max-width: 80%" .normal}
+![popular months](/assets/img/posts/olap/popular-months.png){: width="872" height="589" style="max-width: 80%" .normal}
 
 ## Slow-changing Dimensions
 
 
 In our more tabular SQL-driven approach, slow changing dimensions require a special type of treatment, and it can easily be the reason for an over-growth of our dimension tables.
 
-![slowly changing dimension arch](/posts/olap/slowly-changing-arch.png){: width="872" height="589" style="max-width: 70%; background-color: white" .normal}
+![slowly changing dimension arch](/assets/img/posts/olap/slowly-changing-arch.png){: width="872" height="589" style="max-width: 70%; background-color: white" .normal}
 
 With the graph approach, the only thing we need to do is save the property of the versioning in the arch that connects two dimensions.
 
@@ -97,7 +97,7 @@ MATCH (f:Fact)<-[]-(c:Customer {name: "Lisboa"})
 RETURN f, c
 ```
 
-![slice](/posts/olap/slice.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
+![slice](/assets/img/posts/olap/slice.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
 
 _Get Sales made in "Lisboa" and Product line = "Junior"._
 ```cypher
@@ -108,7 +108,7 @@ RETURN f, c, l, p, sub, cat
 
 ### Dice
 
-![slice](/posts/olap/dice.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
+![slice](/assets/img/posts/olap/dice.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
 
 _Get Sales made in "Lisboa" and Product line = "Junior" WHERE quantity is larger than 910._
 ```cypher
@@ -128,7 +128,7 @@ MATCH (f)<-[]-(d)<-[]-(m)<-[]-(tri:Trimester {_: 2})
 RETURN f, s, co, l, prod, d, m, sub, tri
 ```
 
-![slice](/posts/olap/rollupdrilldown.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
+![slice](/assets/img/posts/olap/rollupdrilldown.png){: width="872" height="589" style="max-width: 60%; background-color: white" .normal}
 
 _Get Sales made in "Spain" with product = "Coffee" in the 5th month_
 ```cypher

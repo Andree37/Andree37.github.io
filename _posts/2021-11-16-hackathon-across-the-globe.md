@@ -50,9 +50,9 @@ The main focus really relies on the *scoring_engine.py* where the rest of the pa
 We chose a [Naive Bayes Algorithm][naive bayes algorithm]{:target="_blank"} with a bag of words to train our model. 
 <br>We split the dataset into **training**, **test** and **validation** as follows:
 
-| Training                     | Test             | Validation|
-|:-----------------------------|:-----------------|--------:|
-| 70%                          | 25%              | 5%      |
+| Training | Test | Validation |
+|:---------|:-----|-----------:|
+| 70%      | 25%  |         5% |
 
 To create our model we used [Scikit-Learn][scikit learn]{:target="_blank"} which the group was very used to and could immediately start working. 
 There were two important functions that we needed to create, the **training** function and the **prediction** function in order to *fit* the model into our cleaned dataset and get some output from previously unseen inputs.
@@ -118,12 +118,12 @@ We also created a function to **validate** the model which gave us some impressi
 
 ![Validation](/posts/australian-hackathon/australian-hackathon-validation.png){: width="972" height="589" style="max-width: 50%" .left}
 
-| Problem #                     | Size of Dataset            | Accuracy|
-|:-----------------------------|:-----------------|--------:|
-| 1                         | 262             | 100%      |
-| 2                         | 256             | 86%      |
-| 3                         | 258             | 100%      |
-| 4                         | 213             | 100%      |
+| Problem # | Size of Dataset | Accuracy |
+|:----------|:----------------|---------:|
+| 1         | 262             |     100% |
+| 2         | 256             |      86% |
+| 3         | 258             |     100% |
+| 4         | 213             |     100% |
 
 The image presented is auto-generated from our *front-end* layer that we created using [React][react]{:target="_blank"} and [Nivo][nivo]{:target="_blank"}.
 

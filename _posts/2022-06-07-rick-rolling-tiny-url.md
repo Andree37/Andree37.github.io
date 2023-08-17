@@ -35,7 +35,7 @@ What if you could mask the URL you are sending and, why not, give it a percentag
 
 Rlld (short for Rolled) is a website that allows you to shorten your URL and give it a percentage to instead of directing you to the correct website, it redirects you to a Rick Roll video.
 
-![rlld what is](/posts/rick-roll-tiny-url/who_created_rlld.png){: width="322" height="589" style="max-width: 60%" .right}
+![rlld what is](/assets/img/posts/rick-roll-tiny-url/who_created_rlld.png){: width="322" height="589" style="max-width: 60%" .right}
 
 Is it usefull?
 > No
@@ -85,9 +85,9 @@ The frontend was developed using React and [Chakra-UI][chakra]{:target="_blank"}
 
 Here is a full view of the website in a gif format:
 
-|                  Creating a new rlld                  |                  Accessing the link                   |
-|:-----------------------------------------------------:|:-----------------------------------------------------:|
-| ![overview](/posts/rick-roll-tiny-url/rlld_video.gif) | ![overview](/posts/rick-roll-tiny-url/rick_video.gif) |
+|                       Creating a new rlld                        |                        Accessing the link                        |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| ![overview](/assets/img/posts/rick-roll-tiny-url/rlld_video.gif) | ![overview](/assets/img/posts/rick-roll-tiny-url/rick_video.gif) |
 
 So far you cannot see the website as it's still not fully deployed, but you can check [this repository][repo]{:target="_blank"} that allows you to run it locally with docker with a simple command.
 

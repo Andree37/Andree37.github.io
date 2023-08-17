@@ -28,7 +28,7 @@ I used [Keras][keras]{:target="_blank"} to help with development, but the same c
 
 ## Recurrent Neural Network Model
 
-![rnn unfolded](/posts/rnn-shakespeare/rnn-unfolded.png){: width="322" height="589" style="max-width: 60%" .right}
+![rnn unfolded](/assets/img/posts/rnn-shakespeare/rnn-unfolded.png){: width="322" height="589" style="max-width: 60%" .right}
 
 Although creating an RNN sounds complex, the implementation is pretty easy using [Keras][keras]{:target="_blank"}. The model RNN[^rnn] can be easily create with the following structure:
 1. `LSTM Layer`
@@ -135,7 +135,7 @@ model.fit(x, y, batch_size=128, epochs=100, callbacks=callbacks)
 ```
 
 Training output:
-![writing training](/posts/rnn-shakespeare/writing.gif){: width="822" height="589" style="max-width: 90%" .normal}
+![writing training](/assets/img/posts/rnn-shakespeare/writing.gif){: width="822" height="589" style="max-width: 90%" .normal}
 
 LOOK AT HIM WRITING BY ITSELF! AAAAAAAAAAA IT'S ALIVE! 🤖
 
