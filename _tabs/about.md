@@ -11,20 +11,16 @@ My name is André Ribeiro, and I am an MSc. Software Developer Engineer from Por
 Check out my Personal Website for projects and studies!
 
 
-🏢 Professional Experience
+### Professional Experience
 
-- Quasarch - Co-Founder, where I build tools for distributed systems and the distributed cloud. Feb 2023 - Present 
-- Instituto Superior Técnico - Teaching Assistant for Operating Systems practical classes. Sept 2023 - Present 
-- OutSystems - Research on Symbolic Execution for Outsystems Logic (Thesis). Feb 2023 - Present 
-- Amazon Web Services (AWS) - SDE Intern at the Zero Touch Device Provisioning Team. Aug 2022 - Jan 2023 
-- Lisgo - SDE responsible for Machine Learning and Full-stack Web apps. Sep 2020 - Apr 2022
+- _Feb 2023 - Present_: **Co-Founder** at [Quasarch][quasarch]{:target="_blank"}. Building tools for distributed systems and the distributed cloud.
+- _Sept 2023 - Present_: **Teaching Assistant** at [Instituto Superior Técnico][tecnico]{:target="_blank"}. Responsible for 'Operating Systems' practical classes.
+- _Feb 2023 - Present_: **Researcher** at [OutSystems][outsystems]{:target="_blank"}. Working on Symbolic Execution for OutSystems Logic (Thesis).
+- _Aug 2022 - Jan 2023_: **SDE Intern** at [Amazon Web Services (AWS)][amazon]{:target="_blank"}. Part of the Zero Touch Device Provisioning Team.
+- _Sep 2020 - Apr 2022_: **SDE** at [Lisgo][lisgo]{:target="_blank"}. Focused on Machine Learning and Full-stack Web apps.
 
-💻 Hackathons
+---
 
-- 🥇 ETHGlobal Lisbon - 1st Place Winner MetaMask: Integrated the Metamask SDK with a Telegram Bot to allow sending ETH from a chat.
-- 🥇 Big Data Society Hackathon - 1st Place: Applied AI models to perform intelligent assessment marking.
-
-***
 I enjoy creating small projects in my free time to learn, and I also participate in Hackathons where I can put my skills to the test, even if it's all the way [across the globe][australianhackathon]{:target="_blank"}.
 
 My absolute favorite programming language is 🦀Rust🦀.
