@@ -5,7 +5,7 @@ categories: [Programing, Study]
 tags: [deep learning, machine learning]
 image:
   path: /assets/img/posts/rnn-shakespeare/shakespeare.jpg
-pin: true
+pin: false
 ---
 
 ### Generated Text
