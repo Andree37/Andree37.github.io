@@ -2,7 +2,6 @@
 title: About
 icon: fas fa-info-circle
 order: 4
-spotifyplaylist: track/1oOD1pV43cV9sHg97aBdLs?si=3adb1ab330624ad9
 ---
 
 ## whoami
