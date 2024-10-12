@@ -7,27 +7,27 @@ spotifyplaylist: track/1oOD1pV43cV9sHg97aBdLs?si=3adb1ab330624ad9
 
 ## whoami
 
-My name is **André Ribeiro**, I am a first year Master student in [Computer Science and Engineering][masters]{:target="_blank"} at [Instituto Superior Técnico][tecnico]{:target="_blank"}. I have professional experience creating backend applications, AI solutions at companies like [Lisgo][lisgo]{:target="_blank"} and [Amazon][amazon]{:target="_blank"}.
+My name is **André Ribeiro**, and I am currently an MSc. Software Developer Engineer for [AWS](https://aws.amazon.com){:target="_blank"}, living in Ireland. I have professional experience creating backend applications and AI solutions at companies like [Lisgo](https://www.linkedin.com/company/lisgo/){:target="_blank"} and [Quasarch](https://www.linkedin.com/company/quasarch){:target="_blank"}.
 
-I'm currently Specializing in Distributed Systems and Data Science in my masters.
-
+I am specializing in Distributed Systems and Data Science in my master’s at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/){:target="_blank"}, where I have also worked as a Teaching Assistant in Operating Systems.
 
 ***
-I enjoy making small projects in my free time that allow me to learn, and also participate in *Hackathons* where I can put my skills to the test even if it's all the way [across the globe][australianhackathon]{:target="_blank"}.
+I enjoy creating small projects that allow me to learn and participate in *Hackathons*, testing my skills even [across the globe](https://2021-11-16-hackathon-across-the-globe.com){:target="_blank"}.
 
-And my absolute favorite language is 🦀Rust 🦀
-
-
-Bass player and wish one day to fully learn this song:
+As a bass player, I hope to one day fully master this song:
 {% include spotifyplaylist.html spotifyurl=page.spotifyplaylist width=380 height=80 %}
 
-*Be sure to check my socials and my Resume if this interests you.*
 
-Check out my [Resume]({{ site.url }}/assets/cv.pdf){:target="_blank"} *updated nov.2021*
+## Professional Experience
+- [AWS](https://aws.amazon.com){:target="_blank"} Software Development Engineer, Zero Touch Device Provisioning Team (Mar 2024 - Present)
+- [Quasarch](https://www.linkedin.com/company/quasarch){:target="_blank"} Co-Founder & Core Developer (Feb 2023 - Present)
+- [Outsystems](https://www.outsystems.com/){:target="_blank"} Student Researcher (Feb 2023 - May 2024)
+- [IST](https://tecnico.ulisboa.pt/en/){:target="_blank"} Teaching Assistant, Operating Systems (Nov 2023 - Feb 2024)
+- [Lisgo](https://www.linkedin.com/company/lisgo/){:target="_blank"} SDE, Full-stack Web Apps (Sep 2020 - Apr 2022)
 
+## Research:
+- [BugOut: Automated Test Generation and Bug Detection for Low-Code](https://conf.researchr.org/track/icst-2024/icst-2024-industry#event-overview){:target="_blank"} - Co-author, 17th IEEE International Conference on Software Testing, 2024
 
-[tecnico]: https://tecnico.ulisboa.pt/en/
-[masters]: https://fenix.tecnico.ulisboa.pt/cursos/meic-a
-[australianhackathon]: {% post_url 2021-11-16-hackathon-across-the-globe %}
-[lisgo]: https://www.linkedin.com/company/lisgo/
-[amazon]: https://www.aboutamazon.com/
+## Hackathons:
+- [ETHGlobal Lisbon](https://ethglobal.com/showcase/web3telbot-suxdo){:target="_blank"} 1st Place Winner MetaMask — Integrated the Metamask SDK with a Telegram Bot to allow sending ETH from a chat.
+- [Big Data Society Hackathon](https://www.mq.edu.au/faculty-of-science-and-engineering/departments-and-schools/school-of-computing/news-and-events/news-items/big-data-society-hackathon){:target="_blank"} 1st Place - Applied AI models to perform an intelligent assessment marking.
