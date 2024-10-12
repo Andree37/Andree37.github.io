@@ -13,9 +13,6 @@ I am specializing in Distributed Systems and Data Science in my master’s at [I
 ***
 I enjoy creating small projects that allow me to learn and participate in *Hackathons*, testing my skills even [across the globe](https://2021-11-16-hackathon-across-the-globe.com){:target="_blank"}.
 
-As a bass player, I hope to one day fully master this song:
-{% include spotifyplaylist.html spotifyurl=page.spotifyplaylist width=380 height=80 %}
-
 
 ## Professional Experience
 - [AWS](https://aws.amazon.com){:target="_blank"} Software Development Engineer, Zero Touch Device Provisioning Team (Mar 2024 - Present)
