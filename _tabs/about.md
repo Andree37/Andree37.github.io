@@ -2,38 +2,32 @@
 title: About
 icon: fas fa-info-circle
 order: 4
+spotifyplaylist: track/1oOD1pV43cV9sHg97aBdLs?si=3adb1ab330624ad9
 ---
 
 ## whoami
 
-My name is André Ribeiro, and I am an MSc. Software Developer Engineer from Portugal. I am the Co-founder of [Quasarch][quasarch]{:target="_blank"}, a decentralized cloud provider. I'm also a Master's student in [Computer Science and Engineering][masters]{:target="_blank"} at [Instituto Superior Técnico][tecnico]{:target="_blank"} and currently researching my thesis on Symbolic Execution in partnership with [OutSystems][outsystems]{:target="_blank"}.
+My name is **André Ribeiro**, and I am currently an MSc. Software Developer Engineer for [AWS](https://aws.amazon.com){:target="_blank"}, living in Ireland. I have professional experience creating backend applications and AI solutions at companies like [Lisgo](https://www.linkedin.com/company/lisgo/){:target="_blank"} and [Quasarch](https://www.linkedin.com/company/quasarch){:target="_blank"}.
 
-Check out my Personal Website for projects and studies!
+I am specializing in Distributed Systems and Data Science in my master’s at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/){:target="_blank"}, where I have also worked as a Teaching Assistant in Operating Systems.
 
+***
+I enjoy creating small projects that allow me to learn and participate in *Hackathons*, testing my skills even [across the globe](https://2021-11-16-hackathon-across-the-globe.com){:target="_blank"}.
 
-### Professional Experience
-
-- _Feb 2023 - Present_: **Co-Founder** at [Quasarch][quasarch]{:target="_blank"}. Building tools for distributed systems and the distributed cloud.
-- _Sept 2023 - Present_: **Teaching Assistant** at [Instituto Superior Técnico][tecnico]{:target="_blank"}. Responsible for 'Operating Systems' practical classes.
-- _Feb 2023 - Present_: **Researcher** at [OutSystems][outsystems]{:target="_blank"}. Working on Symbolic Execution for OutSystems Logic (Thesis).
-- _Aug 2022 - Jan 2023_: **SDE Intern** at [Amazon Web Services (AWS)][amazon]{:target="_blank"}. Part of the Zero Touch Device Provisioning Team.
-- _Sep 2020 - Apr 2022_: **SDE** at [Lisgo][lisgo]{:target="_blank"}. Focused on Machine Learning and Full-stack Web apps.
-
----
-
-I enjoy creating small projects in my free time to learn, and I also participate in Hackathons where I can put my skills to the test, even if it's all the way [across the globe][australianhackathon]{:target="_blank"}.
-
-My absolute favorite programming language is 🦀Rust🦀.
-
-Be sure to check out my socials and my updated Resume if this interests you.
-
-[Resume]({{ site.url }}/assets/cv.pdf){:target="_blank"} Updated Aug 2023
+As a bass player, I hope to one day fully master this song:
+{% include spotifyplaylist.html spotifyurl=page.spotifyplaylist width=380 height=80 %}
 
 
-[tecnico]: https://tecnico.ulisboa.pt/en/
-[masters]: https://fenix.tecnico.ulisboa.pt/cursos/meic-a
-[australianhackathon]: {% post_url 2021-11-16-hackathon-across-the-globe %}
-[quasarch]: https://www.linkedin.com/company/92803373/admin/feed/posts/
-[outsystems]: https://www.outsystems.com/
-[lisgo]: https://www.linkedin.com/company/lisgo/
-[amazon]: https://www.aboutamazon.com/
+## Professional Experience
+- [AWS](https://aws.amazon.com){:target="_blank"} Software Development Engineer, Zero Touch Device Provisioning Team (Mar 2024 - Present)
+- [Quasarch](https://www.linkedin.com/company/quasarch){:target="_blank"} Co-Founder & Core Developer (Feb 2023 - Present)
+- [Outsystems](https://www.outsystems.com/){:target="_blank"} Student Researcher (Feb 2023 - May 2024)
+- [IST](https://tecnico.ulisboa.pt/en/){:target="_blank"} Teaching Assistant, Operating Systems (Nov 2023 - Feb 2024)
+- [Lisgo](https://www.linkedin.com/company/lisgo/){:target="_blank"} SDE, Full-stack Web Apps (Sep 2020 - Apr 2022)
+
+## Research:
+- [BugOut: Automated Test Generation and Bug Detection for Low-Code](https://conf.researchr.org/track/icst-2024/icst-2024-industry#event-overview){:target="_blank"} - Co-author, 17th IEEE International Conference on Software Testing, 2024
+
+## Hackathons:
+- [ETHGlobal Lisbon](https://ethglobal.com/showcase/web3telbot-suxdo){:target="_blank"} 1st Place Winner MetaMask — Integrated the Metamask SDK with a Telegram Bot to allow sending ETH from a chat.
+- [Big Data Society Hackathon](https://www.mq.edu.au/faculty-of-science-and-engineering/departments-and-schools/school-of-computing/news-and-events/news-items/big-data-society-hackathon){:target="_blank"} 1st Place - Applied AI models to perform an intelligent assessment marking.
