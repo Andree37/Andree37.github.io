@@ -1,5 +1,5 @@
 ---
-title: Navigator - Tmux
+title: zsh-navigator Plugin
 date: 2024-11-16 20:25:00 +0100
 categories: [cli]
 tags: [tmux]
@@ -8,10 +8,10 @@ image:
 pin: false
 ---
 
-Navigator allows you to be fast in moving from folder to folder.
+Navigator allows you to be fast in moving from folder to folder either with tmux or just plain old `cd`.
 
 I am taking another approach on this post. Check the video to check out the script in action.
-And you can get the full script [here](https://github.com/Andree37/.dotfiles/blob/main/navigator).
+And you can get the full script [here](https://github.com/Andree37/zsh-navigator).
 
 ## Video
 
