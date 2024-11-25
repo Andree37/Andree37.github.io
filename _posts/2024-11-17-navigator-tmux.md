@@ -8,7 +8,7 @@ image:
 pin: false
 ---
 
-Navigator allows you to be fast in moving from folder to folder either with tmux or just plain old `cd`.
+Navigator allows you to be fast in moving from folder to folder either with `tmux` or just plain old `cd`.
 
 I am taking another approach on this post. Check the video to check out the script in action.
 And you can get the full script [here](https://github.com/Andree37/zsh-navigator).
@@ -17,4 +17,4 @@ And you can get the full script [here](https://github.com/Andree37/zsh-navigator
 
 <iframe width="800" height="420" src="https://www.youtube.com/embed/roEfho_wy78?si=9NEtWVWJ6NJXMmM2" title="Navigator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Hope you enjoy it! :D
+Enjoy it.
