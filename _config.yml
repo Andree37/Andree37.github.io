@@ -18,11 +18,11 @@ timezone: Europe/Lisbon
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Andre Ribeiro   # the main title
+title: Andre Ribeiro # the main title
 
-tagline: MSc SDE # it will display as the sub-title
+tagline: MSc SDE II # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
+description: >- # used by seo meta and the atom feed
   Co-Founder @ Quasarch
   Master Degree in Computer Science and Engineering @ IST
 
@@ -33,7 +33,7 @@ github:
   username: Andree37 # change to your github username
 
 twitter:
-  username: bytebeagle # change to your twitter username
+  username: # change to your twitter username
 
 social:
   # Change to your full name.
@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'assets/img/avatar.png'
+avatar: "assets/img/avatar.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
