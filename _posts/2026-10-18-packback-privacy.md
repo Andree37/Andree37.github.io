@@ -2,8 +2,8 @@
 title: "Packback — Privacy Policy, Terms & Support"
 date: 2026-10-18 00:00:00 +0000
 categories: [Packback]
-tags: [privacy, support, packback]
 pin: false
+hidden: true
 toc: true
 comments: false
 ---

@@ -2,8 +2,8 @@
 title: "VoidSweeper — Privacy Policy"
 date: 2026-06-15 00:00:00 +0000
 categories: [VoidSweeper]
-tags: [privacy, voidsweeper]
 pin: false
+hidden: true
 toc: true
 comments: false
 ---

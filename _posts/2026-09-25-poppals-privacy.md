@@ -2,8 +2,8 @@
 title: "PopPals — Privacy Policy & Support"
 date: 2026-09-25 00:00:00 +0000
 categories: [PopPals]
-tags: [privacy, support, poppals]
 pin: false
+hidden: true
 toc: true
 comments: false
 ---
