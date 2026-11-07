@@ -27,7 +27,7 @@ description: >- # used by seo meta and the atom feed
   Master Degree in Computer Science and Engineering @ IST
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://andrerib.xyz"
 
 github:
   username: Andree37 # change to your github username
@@ -144,6 +144,12 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+  - scope:
+      path: privacy
+    values:
+      layout: page
+      sitemap: false # App store policy pages, reachable by direct link only
+      analytics: false
   - scope:
       path: _drafts
     values:

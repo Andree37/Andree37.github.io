@@ -36,8 +36,8 @@ Here's a snippet that sets this up:
 import argparse
 
 def main():
-parser = argparse.ArgumentParser(description="Solve exit game puzzles involving number combinations.")
-parser.add_argument("piece", nargs="*", type=int, default=[1, 3], help="Initial piece of the combination (default: %(default)s)")
+    parser = argparse.ArgumentParser(description="Solve exit game puzzles involving number combinations.")
+    parser.add_argument("piece", nargs="*", type=int, default=[1, 3], help="Initial piece of the combination (default: %(default)s)")
 
     args = parser.parse_args()
 
@@ -49,7 +49,7 @@ parser.add_argument("piece", nargs="*", type=int, default=[1, 3], help="Initial 
     # Rest of the puzzle-solving logic
 
 if __name__ == "__main__":
-main()
+    main()
 ```
 
 Users can specify their initial piece as:

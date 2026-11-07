@@ -17,10 +17,12 @@ The journey begins with the deployment of a Redis master-replica cluster using H
 ## Balancing Resources
 
 For our baseline configuration, we set CPU limits to 100 millicpu units and memory limits to 500Mi. These settings aimed to balance performance and resource efficiency, providing enough leeway for Redis to handle a variety of operations concurrently without falling prey to memory pressure or CPU starvation.
-Redis Persistence
+
+## Redis Persistence
 
 To ensure data durability, we enabled Redis's persistence feature. The use of Append-Only Files (AOF) logs guarantees that operations can be replayed to restore a server, adding a layer of resilience to our setup.
-Benchmarking Redis Performance
+
+## Benchmarking Redis Performance
 
 To understand Redis's performance, we put it to the test using redis-benchmark. We simulated a real-world scenario with 100 parallel connections and a total of 1 million requests, focusing on `set` and `get` operations to evaluate both write and read capabilities.
 
@@ -65,7 +67,7 @@ For further details and to see our findings, please refer to our project’s Git
 
 For tech enthusiasts and professionals alike, the scalability and performance analysis of Redis presented in this blog post can offer valuable knowledge in engineering large-scale systems. Redis proves to be as robust and reliable as it is performant, a beacon for developers and system architects aiming for efficiency at scale.
 
-Would you like to delve deeper into our findings? Do not hesitate to reach out or explore our GitHub repository for the full array of insights and data points gathered throughout this phase of our project.
+Would you like to delve deeper into our findings? Do not hesitate to reach out for the full array of insights and data points gathered throughout this phase of our project.
 
 (Note: This post has been adapted from a technical project abstract to suit a blog format. Some content has been simplified for the target audience.)
 

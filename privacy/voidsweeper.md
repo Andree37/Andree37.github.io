@@ -1,14 +1,9 @@
 ---
 title: "VoidSweeper — Privacy Policy"
-date: 2026-06-15 00:00:00 +0000
-categories: [VoidSweeper]
-pin: false
-hidden: true
-toc: true
-comments: false
+permalink: /posts/voidsweeper-privacy/
 ---
 
-*Last updated: June 15, 2025*
+*Last updated: June 15, 2026*
 
 VoidSweeper ("the game", "we", "our") is developed by Andre Ribeiro. This policy explains what data is collected when you play VoidSweeper and how it is used.
 

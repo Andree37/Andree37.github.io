@@ -54,6 +54,9 @@ How to implement this? Here is an example I made in Go to quickly encode and dec
 func base10ToBase62(id int) string {
   m := "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 	var shortURL []string
+  if id == 0 {
+    return string(m[0])
+  }
   for id > 0 {
     shortURL = append(shortURL, string(m[id%62]))
     id /= 62
@@ -68,7 +71,7 @@ func base62ToBase10(shortID string) int {
     if val_i >= int('a') && val_i <= int('z') {
       id = id*62 + val_i - int('a')
     } else if val_i >= int('A') && val_i <= int('Z') {
-      id = id*62 + val_i - int('Z') + 26
+      id = id*62 + val_i - int('A') + 26
     } else {
       id = id*62 + val_i - int('0') + 52
     }

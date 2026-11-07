@@ -1,11 +1,6 @@
 ---
 title: "Packback — Privacy Policy, Terms & Support"
-date: 2026-10-18 00:00:00 +0000
-categories: [Packback]
-pin: false
-hidden: true
-toc: true
-comments: false
+permalink: /posts/packback-privacy/
 ---
 
 *Last updated: October 18, 2026*

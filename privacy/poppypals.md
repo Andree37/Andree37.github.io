@@ -1,14 +1,9 @@
 ---
 title: "Poppy Pals — Privacy Policy"
-date: 2026-07-12 00:00:00 +0000
-categories: [PoppyPals]
-pin: false
-hidden: true
-toc: true
-comments: false
+permalink: /posts/poppypals-privacy/
 ---
 
-*Last updated: July 12, 2026*
+*Last updated: November 7, 2026*
 
 Poppy Pals ("the game", "we", "our") is developed by Andre Ribeiro. This policy explains what data is collected when you play Poppy Pals and how it is used.
 
@@ -19,7 +14,7 @@ Poppy Pals ("the game", "we", "our") is developed by Andre Ribeiro. This policy 
 - **Advertising** — We use Google AdMob to display interstitial and rewarded ads. AdMob may collect device identifiers and usage data to show relevant ads. You can opt out of personalised ads in your device settings.
 - **Purchases** — Candy packs are sold as in-app purchases handled entirely by Apple's App Store or Google Play. We never see or store your payment details.
 
-We do not run analytics or crash reporting SDKs, and we do not track you across apps or websites.
+We do not run analytics or crash reporting SDKs. Apart from the advertising described above, we do not track you across apps or websites.
 
 ## 2. How We Use Your Data
 

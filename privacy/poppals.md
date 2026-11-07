@@ -1,14 +1,9 @@
 ---
 title: "PopPals — Privacy Policy & Support"
-date: 2026-09-25 00:00:00 +0000
-categories: [PopPals]
-pin: false
-hidden: true
-toc: true
-comments: false
+permalink: /posts/poppals-privacy/
 ---
 
-*Last updated: September 25, 2026*
+*Last updated: November 7, 2026*
 
 PopPals: Bubble Pop ("PopPals", "the game", "we", "our") is developed by Andre Ribeiro. This page explains what data is collected when you play PopPals, how it is used, and how to get help.
 
@@ -20,7 +15,7 @@ PopPals: Bubble Pop ("PopPals", "the game", "we", "our") is developed by Andre R
 - **Advertising** — We use Google AdMob to show interstitial and rewarded ads. AdMob may collect device identifiers and usage data to show relevant ads. You can opt out of personalised ads in your device settings.
 - **Purchases** — If candy packs are offered as in-app purchases, they are handled entirely by Apple's App Store or Google Play. We never see or store your payment details.
 
-We do not run analytics or crash reporting SDKs, and we do not track you across apps or websites.
+We do not run analytics or crash reporting SDKs. Apart from the advertising described above, we do not track you across apps or websites.
 
 ## 2. How We Use Your Data
 

@@ -11,7 +11,7 @@ My name is **André Ribeiro**, and I am currently an MSc. Software Developer Eng
 I am specializing in Distributed Systems and Data Science in my master’s at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/){:target="_blank"}, where I have also worked as a Teaching Assistant in Operating Systems.
 
 ***
-I enjoy creating small projects that allow me to learn and participate in *Hackathons*, testing my skills even [across the globe](https://2021-11-16-hackathon-across-the-globe.com){:target="_blank"}.
+I enjoy creating small projects that allow me to learn and participate in *Hackathons*, testing my skills even [across the globe](/posts/hackathon-across-the-globe/){:target="_blank"}.
 
 
 ## Professional Experience

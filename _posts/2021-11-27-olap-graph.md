@@ -78,7 +78,7 @@ The arch saves the last time that connection was **true** in a timestamp, allowi
 
 ```cypher
 MATCH (store:Store {name: "Super"})-[]->(sec:Section)-[arch:HAS]->(prod:Product {name: "A"})
-WHERE arch.date >= 2019-05-21
+WHERE arch.date >= date("2019-05-21")
 RETURN store, sec, prod
 ```
 

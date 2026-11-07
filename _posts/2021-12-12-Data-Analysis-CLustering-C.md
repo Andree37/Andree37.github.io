@@ -198,7 +198,7 @@ PtClusterList kmeans(PtList list, int k, int maxIteration, float deltaError, flo
     *iterationError = calculateError(clusters, k);
 
     iterationNumber++;
-  } while ((iterationNumber < maxIteration) && (fabs(prevError - *iterationError) > deltaError));
+  } while ((iterationNumber <= maxIteration) && (fabs(prevError - *iterationError) > deltaError));
 
   return clusters;
 }
